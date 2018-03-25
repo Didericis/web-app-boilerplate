@@ -1,0 +1,43 @@
+@value colors: "styles/theme.css";
+@value base01, base3 from colors;
+
+.main {
+  background-color: black;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 2px);
+  height: 100vh;
+}
+
+.main header {
+  background-color: base01;
+  display: flex;
+  border-bottom: 1px solid base3;
+}
+
+.main header button {
+  background-color: transparent;
+  border: none;
+  flex: 0;
+}
+
+.main header div {
+  flex: 1;
+}
+
+.main main > div {
+  flex: 1;
+}
+
+.main main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+}
+
+.main footer {
+  background-color: base01;
+  border-top: 1px solid base3;
+}

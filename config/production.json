@@ -1,0 +1,13 @@
+{
+  "graphql": {
+    "protocol": "https"
+  },
+  "public": {
+    "autoLogoutTimeout": null,
+    "idleTimeout": null
+  },
+  "server": {
+    "forceSSL": "true",
+    "port": 3000
+  }
+}

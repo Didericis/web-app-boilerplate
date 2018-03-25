@@ -1,0 +1,17 @@
+{
+  "graphql": {
+    "port": "GRAPHQL_PORT",
+    "host": "GRAPHQL_HOST",
+    "protocol": "GRAPHQL_PROTOCOL",
+    "token": "GRAPHQL_TOKEN",
+    "schema": "GRAPQHL_SCHEMA"
+  },
+  "public": {
+    "autoLogoutTimeout": "AUTO_LOGOUT_TIMEOUT",
+    "idleTimeout": "IDLE_TIMEOUT"
+  },
+  "server": {
+    "forceSSL": "FORCE_SSL",
+    "port": "PORT"
+  }
+}

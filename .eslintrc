@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "ecmaFeatures": {
+    "classes": true,
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "jsx": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used" }],
+    "camelcase": "error",
+    "max-len": ["error", { "code": 80 }],
+    "no-unreachable": "error",
+    "curly": ["error" , "multi-line"],
+    "semi": ["error", "always"],
+    "react/display-name": 1,
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "react/prop-types": [2]
+  }
+}

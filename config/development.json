@@ -1,0 +1,23 @@
+{
+  "coverage": {
+    "port": 5010
+  },
+  "graphql": {
+    "host": "localhost",
+    "port": 4000,
+    "protocol": "http",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiV2ViQXBwU2VydmVyIiwiaWF0IjoxNTEwNjM0ODE5fQ.R_slSjzOJkZfJeJySY0uFSOrDk1h8snmjBnsMjK2_BA",
+    "schema": "./empty_schema"
+  },
+  "public": {
+    "autoLogoutTimeout": 100000000,
+    "idleTimeout": 1000000000
+  },
+  "server": {
+    "forceSSL": "false",
+    "port": 3000
+  },
+  "styleguide": {
+    "port": 5000
+  }
+}

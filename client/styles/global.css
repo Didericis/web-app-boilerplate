@@ -1,0 +1,64 @@
+@value colors: "styles/theme.css";
+@value base01, base3 from colors;
+@import url("/css/font-awesome.min.css");
+
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Economica-Regular.ttf') format('truetype');
+}
+
+:global(form) {
+  background-color: base3;
+  border-radius: .5rem;
+  color: black;
+  padding: 1rem;
+}
+
+:global(form) input {
+  background-color: white;
+  color: black;
+}
+
+:global(form) button {
+  background-color: base01;
+}
+
+:global(body) {
+  margin: 0;
+}
+
+:global(button) {
+  background-color: black;
+  border-width: 1px;
+  border-radius: 4px;
+  color: base3;
+  font-family: 'Economica', sans-serif;
+  font-size: 1rem;
+}
+
+:global(#app) {
+  align-items: center;
+  background-color: black;
+  color: base3;
+  font-family: 'Economica', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+:global(::-webkit-scrollbar) {
+  display: none;
+}
+
+:global(input), :global(textarea) {
+  padding: 0.4rem 0.6rem;
+  background-color: black;
+  color: base3;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Economica', sans-serif;
+}
