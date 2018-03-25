@@ -15,6 +15,8 @@ const entry = (file) => [
 module.exports = {
   devtool: 'inline-source-map',
 
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
+
   entry: {
     app: entry('client/entrypoints/app'),
     public: entry('client/entrypoints/public'),
