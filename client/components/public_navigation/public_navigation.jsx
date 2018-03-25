@@ -16,7 +16,9 @@ export default class PublicNavigation extends Component {
     const { className, style } = this.props;
     return (
       <div className={classNames(styles.main, className)} style={style}>
-        <div className={styles.logo}><Link to='/'><span>Calamore</span></Link></div>
+        <div className={styles.logo}>
+          <Link to='/'><span>App</span></Link>
+        </div>
         <div className={styles.spacing} />
         <div className={styles.accountButtons}>
           <Link to={PUBLIC.signUp}>Sign Up</Link>
