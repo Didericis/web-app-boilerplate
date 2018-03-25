@@ -1,15 +1,9 @@
-# Calamore - Web
+# Web App Boilerplate
 
-Express server and react code for the webapp
+Boilerplate for app that serves a single page react app with a graphql, token authenticated backend.
 
-```
-├── client        # client side react code
-├── config        # node config
-├── constants     # static constants for client/server
-├── docs          # misc documentation (REMOVE)
-├── public        # static content served from the server
-├── server        # express server
-├── styleguide    # styleguidst wrappers
-├── templates     # html templates
-└── test_utils    # test related factories/utilities
-```
+### TODO
+
+- [ ] Add documentation for hooking up graphql
+- [ ] Add documentation about available commands
+- [ ] Use passport for authentication
