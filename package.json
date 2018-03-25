@@ -1,7 +1,6 @@
 {
-  "name": "calamore-web",
-  "version": "0.0.1",
-  "description": "Time management app",
+  "name": "web-app-boilerplate",
+  "version": "1.0.0",
   "main": "server.js",
   "engines": {
     "node": "8.5.0",
@@ -21,17 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/didericis/calamore-web.git"
+    "url": "git+https://github.com/didericis/web-app-boilerplate.git"
   },
-  "keywords": [
-    "calendar"
-  ],
   "author": "didericis <didericis@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/didericis/calamore-web/issues"
+    "url": "https://github.com/didericis/web-app-boilerplate/issues"
   },
-  "homepage": "https://github.com/didericis/calamore-web#readme",
+  "homepage": "https://github.com/didericis/web-app-boilerplate#readme",
   "_moduleDirectories": [
     "server"
   ],
@@ -51,7 +47,7 @@
     "classnames": "^2.2.5",
     "compression": "^1.7.2",
     "config": "^1.30.0",
-    "cookie-session": "^2.0.0-beta.1",
+    "cookie-session": "^2.0.0-beta.3",
     "cors": "^2.8.4",
     "css-loader": "^0.28.11",
     "es6-promise": "^4.2.4",
